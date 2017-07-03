@@ -1,0 +1,334 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:'微软雅黑';
+}
+.body{
+	padding-top:50px;
+	}
+.daohang{
+	background:rgba(0,0,0,1);
+	}
+.daohang img{
+	width:125px;
+	margin-top:12px;
+	margin-left:5%;
+	}
+.daohang span{
+	border:1px solid greenyellow;
+	}
+.Btn{
+	float:right;
+	padding-top:1px;
+    padding-right:50px;
+	}
+.daohang button{
+	width:22px;
+	height:2px;
+	}
+.text{
+	float:right;
+	margin-right:120px;
+	}
+.container{
+	width:100%;
+	padding:0;
+	}
+.box_01{
+	width:100%;
+	height:650px;
+	background:url('../img/coachella_2.jpg') no-repeat center center;
+	background-size:cover;
+	}
+.box_01_cantainer{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+	background:rgba(255,255,255,0.3);
+	}
+.box_01_cantainer p{
+	width:100%;
+	font-size:32px;
+	text-align:center;
+	position:absolute;
+	top:10%;
+	}
+.img01{
+	width:190px;
+	height:400px;
+	margin:120px auto;
+	}
+.img02{
+	width:170px;
+	height:310px;
+	position:absolute;
+	top:25%;
+	left:50%;
+	transform:translate(-50%);
+	}
+.button{
+	width:145px;
+	height:55px;
+	font-size:19px;
+	color:white;
+	text-align:center;
+	line-height:55px;
+	background:rgb(16,170,180);
+	border-radius:10px;
+	position:absolute;
+	left:50%;
+	top:85%;
+	transform:translate(-50%);
+	}
+.img03{
+	width:32px;
+	position:absolute;
+	left:50%;
+	top:95%;
+	transform:translate(-50%);
+	}
+.img04{
+	width:160px;
+	position:absolute;
+	left:15.5%;
+	top:-4%;
+	transform:translate(-50%);
+	}
+.home{
+	position:absolute;
+	right:9%;
+	top:9%;
+	font-size:14px;
+	/*letter-spacing:3px;*/
+	}
+.box_02{
+	width:100%;
+	height:500px;
+	background:white;
+	}
+.box_02_container{
+	width:80%;
+	height:100%;
+	margin:0 auto;
+	background:white;
+	padding-top:7%;
+	}
+.p1{
+	width:100%;
+	font-size:30px;
+	margin-top:0;
+	margin-bottom:14px;
+	text-align:center;
+	line-height:35px;
+	}
+.row{
+	margin-right:0;
+	}
+.p1 small{
+	font-size:42%;
+	color:#333;
+	}
+.div1,.div2,.div3{
+	text-align:center;
+	}
+.p2{
+	font-size:28px;
+	}
+.p3{
+	font-size:14px;
+	}
+.img1{
+	width:100%;
+	height:73px;
+	background: url("../img/ico_sprite.png") no-repeat 50% -2px;
+	background-size: 70px;
+	}
+.img2{
+	width:100%;
+	height:73px;
+	background: url("../img/ico_sprite.png") no-repeat 50% -69px;	
+	background-size: 68px;
+	}
+.img3{
+	width:100%;
+	height:73px;
+	background: url("../img/ico_sprite.png") no-repeat 50% -144px;	
+	background-size: 72px;
+	}
+.box_03{
+	width:100%;
+    background:rgb(247,247,247);
+    padding-bottom: 65px;
+	}
+.box_03_container{
+    padding-top:6%;
+    padding-left:6%;
+	}
+.box_03_container img{
+	width:341px;
+	height:600px;
+	border-radius: 10px;
+	box-shadow: 0px 6px 42px black;
+	}
+.div1a,.div2b,.div3a,.div4b{
+	text-align:center;
+	}
+.div1b,.div2a,.div3b,.div4a{
+	position:relative;
+	margin-top: 253px;
+	}
+.div1b .p1,.div2a .p1,.div3b .p1,.div4a .p1{
+	width:88%;
+	font-size: 29px;
+	}
+.div1b .p2,.div2a .p2,.div3b .p2,.div4a .p2{
+    width:88%;
+	font-size: 14px;
+	}
+.div2a .p1,.div2a .p2,.div4a .p1,.div4a .p2{
+	width:88%;
+	text-align: right; 	
+	}
+.box_04{
+	width:100%;
+    background:white;
+    padding-top: 7%;
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 192px;
+	}
+.box_04 .row{
+	padding-left: 4%;
+	padding-right:4%;
+	margin-top: 62px;
+	}
+.box_04 p{
+	width:100%;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 35px;
+	font-family: "微软雅黑";
+	margin-bottom: 14px;
+	}
+.box_04 .p2{
+	font-size:20px;
+	}
+.box_04 img{
+	width:100%;
+	border-radius: 7px;
+	box-shadow: 0px 6px 23px rgb(100,100,100);
+	}
+.box_04 .div1,.box_04 .div2,.box_04 .div3{
+	text-align:center;
+	}
+.box_04 .button{
+	position:absolute;
+    left:50%;
+    transform: translate(-50%);
+	width:144px;
+	height:56px;
+	color:white;
+	font-size: 19px;
+	background:rgb(16,170,180);
+	text-align: center;
+	line-height:56px ;
+	border-radius: 7px;
+	bottom: 78px;
+	}
+.box_05{
+	 width:100%;
+     background:white;
+     padding-top: 7%;
+     position: relative;
+	}
+.box_05 row{
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 36px;
+	}
+.box_05 .p1{
+	width:100%;
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 35px;
+	font-family: "微软雅黑";
+	margin-bottom: 14px;
+	padding-left: 110px;
+	}
+.box_05 .row .div1,.box_05 .row .div2,.box_05 .row .div3,.box_05 .row .div4,.box_05 .row .div5,.box_05 .row .div6{
+	text-align: center;
+	}
+.box_05 .p2{
+	font-size: 24px;
+	}
+.box_05 .p3{
+	font-size: 14px;
+	}
+.box_05 .img1{
+	width:100%;
+	height:147px;
+	background-size: 122px;
+	background: url("../img/press_venture_fizz.jpg") no-repeat 50% -2px;	
+	}
+.box_05 .img2{
+	width:100%;
+	height:147px;
+	background-size: 304px;
+	background: url("../img/press_news_at_northeastern.jpg") no-repeat 50% 28%;
+	}
+.box_05 .img3{
+	width:100%;
+	height:147px;
+	background-size: 261px;
+	background: url("../img/press_bostoninno.jpg") no-repeat 50% 50%;
+	}
+.box_05 .img4{
+	width:100%;
+	height:147px;
+	background-size: 134px;
+	background: url("../img/press_her_campus.jpg") no-repeat 50% 50%;	
+	}
+.box_05 .img5{
+	width:100%;
+	height:147px;
+	background-size: 130px;
+	background: url("../img/press_venture_storm.jpg") no-repeat 50% 50%;
+	}
+.box_05 .img6{
+	width:100%;
+	height:147px;
+	background-size: 186px;
+	background: url("../img/press_creator.png") no-repeat 50% 50%;
+	}
+.box_06{
+	width:100%;
+    background:white;
+    padding-top: 31px;
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 40px;
+    background: rgb(30,30,30);
+	}
+.box_06 .row{
+	padding-left: 8%;
+	padding-right:8%;
+	text-align: center;
+	}
+.box_06 .img1{
+	width: 130px;
+	height:30px;
+	}
+.box_06 .div2{
+	color:white;
+	padding-top: 8px;
+	}
+.box_06 .div2 span{
+	padding-right: 17px;
+	}
+.spann{
+	color:rgb(146,135,124);
+	}
